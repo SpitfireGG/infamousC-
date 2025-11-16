@@ -1,0 +1,16 @@
+[
+
+  {
+    "arguments": [
+      "/run/current-system/sw/bin/c++",
+      "-std=c++17",
+      "-c",
+      "-o",
+      "CMakeFiles/main.dir/src/main.cpp.o",
+      "/home/archbishop/Dev/cpp/src/main.cpp"
+    ],
+    "directory": "/home/archbishop/Dev/cpp/build",
+    "file": "/home/archbishop/Dev/cpp/src/main.cpp",
+    "output": "/home/archbishop/Dev/cpp/build/CMakeFiles/main.dir/src/main.cpp.o"
+  }
+]
