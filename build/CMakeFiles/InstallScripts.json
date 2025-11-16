@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/archbishop/Dev/cpp/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
