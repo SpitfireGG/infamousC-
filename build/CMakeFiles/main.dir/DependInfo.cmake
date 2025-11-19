@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/archbishop/Dev/cpp/src/basics/basics.cpp" "CMakeFiles/main.dir/src/basics/basics.cpp.o" "gcc" "CMakeFiles/main.dir/src/basics/basics.cpp.o.d"
-  "/home/archbishop/Dev/cpp/src/bitman/bitman.cpp" "CMakeFiles/main.dir/src/bitman/bitman.cpp.o" "gcc" "CMakeFiles/main.dir/src/bitman/bitman.cpp.o.d"
-  "/home/archbishop/Dev/cpp/src/classes/classes.cpp" "CMakeFiles/main.dir/src/classes/classes.cpp.o" "gcc" "CMakeFiles/main.dir/src/classes/classes.cpp.o.d"
-  "/home/archbishop/Dev/cpp/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main.cpp.o.d"
+  "/home/archbishop/Dev/infamousC-/src/basics/basics.cpp" "CMakeFiles/main.dir/src/basics/basics.cpp.o" "gcc" "CMakeFiles/main.dir/src/basics/basics.cpp.o.d"
+  "/home/archbishop/Dev/infamousC-/src/bitman/bitman.cpp" "CMakeFiles/main.dir/src/bitman/bitman.cpp.o" "gcc" "CMakeFiles/main.dir/src/bitman/bitman.cpp.o.d"
+  "/home/archbishop/Dev/infamousC-/src/classes/classes.cpp" "CMakeFiles/main.dir/src/classes/classes.cpp.o" "gcc" "CMakeFiles/main.dir/src/classes/classes.cpp.o.d"
+  "/home/archbishop/Dev/infamousC-/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main.cpp.o.d"
   "" "main" "gcc" "CMakeFiles/main.dir/link.d"
   )
 

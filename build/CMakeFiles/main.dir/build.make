@@ -53,10 +53,10 @@ RM = /nix/store/zilgq0widc374l4b1hlsr11wwb1h05yw-cmake-cursesUI-4.1.2/bin/cmake 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/archbishop/Dev/cpp
+CMAKE_SOURCE_DIR = /home/archbishop/Dev/infamousC-
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/archbishop/Dev/cpp/build
+CMAKE_BINARY_DIR = /home/archbishop/Dev/infamousC-/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -73,60 +73,60 @@ CMakeFiles/main.dir/codegen:
 .PHONY : CMakeFiles/main.dir/codegen
 
 CMakeFiles/main.dir/src/basics/basics.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/basics/basics.cpp.o: /home/archbishop/Dev/cpp/src/basics/basics.cpp
+CMakeFiles/main.dir/src/basics/basics.cpp.o: /home/archbishop/Dev/infamousC-/src/basics/basics.cpp
 CMakeFiles/main.dir/src/basics/basics.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/archbishop/Dev/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/basics/basics.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/basics/basics.cpp.o -MF CMakeFiles/main.dir/src/basics/basics.cpp.o.d -o CMakeFiles/main.dir/src/basics/basics.cpp.o -c /home/archbishop/Dev/cpp/src/basics/basics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/archbishop/Dev/infamousC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/basics/basics.cpp.o"
+	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/basics/basics.cpp.o -MF CMakeFiles/main.dir/src/basics/basics.cpp.o.d -o CMakeFiles/main.dir/src/basics/basics.cpp.o -c /home/archbishop/Dev/infamousC-/src/basics/basics.cpp
 
 CMakeFiles/main.dir/src/basics/basics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/basics/basics.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/archbishop/Dev/cpp/src/basics/basics.cpp > CMakeFiles/main.dir/src/basics/basics.cpp.i
+	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/archbishop/Dev/infamousC-/src/basics/basics.cpp > CMakeFiles/main.dir/src/basics/basics.cpp.i
 
 CMakeFiles/main.dir/src/basics/basics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/basics/basics.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/archbishop/Dev/cpp/src/basics/basics.cpp -o CMakeFiles/main.dir/src/basics/basics.cpp.s
+	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/archbishop/Dev/infamousC-/src/basics/basics.cpp -o CMakeFiles/main.dir/src/basics/basics.cpp.s
 
 CMakeFiles/main.dir/src/classes/classes.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/classes/classes.cpp.o: /home/archbishop/Dev/cpp/src/classes/classes.cpp
+CMakeFiles/main.dir/src/classes/classes.cpp.o: /home/archbishop/Dev/infamousC-/src/classes/classes.cpp
 CMakeFiles/main.dir/src/classes/classes.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/archbishop/Dev/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/classes/classes.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/classes/classes.cpp.o -MF CMakeFiles/main.dir/src/classes/classes.cpp.o.d -o CMakeFiles/main.dir/src/classes/classes.cpp.o -c /home/archbishop/Dev/cpp/src/classes/classes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/archbishop/Dev/infamousC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/classes/classes.cpp.o"
+	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/classes/classes.cpp.o -MF CMakeFiles/main.dir/src/classes/classes.cpp.o.d -o CMakeFiles/main.dir/src/classes/classes.cpp.o -c /home/archbishop/Dev/infamousC-/src/classes/classes.cpp
 
 CMakeFiles/main.dir/src/classes/classes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/classes/classes.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/archbishop/Dev/cpp/src/classes/classes.cpp > CMakeFiles/main.dir/src/classes/classes.cpp.i
+	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/archbishop/Dev/infamousC-/src/classes/classes.cpp > CMakeFiles/main.dir/src/classes/classes.cpp.i
 
 CMakeFiles/main.dir/src/classes/classes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/classes/classes.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/archbishop/Dev/cpp/src/classes/classes.cpp -o CMakeFiles/main.dir/src/classes/classes.cpp.s
+	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/archbishop/Dev/infamousC-/src/classes/classes.cpp -o CMakeFiles/main.dir/src/classes/classes.cpp.s
 
 CMakeFiles/main.dir/src/bitman/bitman.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/bitman/bitman.cpp.o: /home/archbishop/Dev/cpp/src/bitman/bitman.cpp
+CMakeFiles/main.dir/src/bitman/bitman.cpp.o: /home/archbishop/Dev/infamousC-/src/bitman/bitman.cpp
 CMakeFiles/main.dir/src/bitman/bitman.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/archbishop/Dev/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/bitman/bitman.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/bitman/bitman.cpp.o -MF CMakeFiles/main.dir/src/bitman/bitman.cpp.o.d -o CMakeFiles/main.dir/src/bitman/bitman.cpp.o -c /home/archbishop/Dev/cpp/src/bitman/bitman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/archbishop/Dev/infamousC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/bitman/bitman.cpp.o"
+	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/bitman/bitman.cpp.o -MF CMakeFiles/main.dir/src/bitman/bitman.cpp.o.d -o CMakeFiles/main.dir/src/bitman/bitman.cpp.o -c /home/archbishop/Dev/infamousC-/src/bitman/bitman.cpp
 
 CMakeFiles/main.dir/src/bitman/bitman.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/bitman/bitman.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/archbishop/Dev/cpp/src/bitman/bitman.cpp > CMakeFiles/main.dir/src/bitman/bitman.cpp.i
+	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/archbishop/Dev/infamousC-/src/bitman/bitman.cpp > CMakeFiles/main.dir/src/bitman/bitman.cpp.i
 
 CMakeFiles/main.dir/src/bitman/bitman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/bitman/bitman.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/archbishop/Dev/cpp/src/bitman/bitman.cpp -o CMakeFiles/main.dir/src/bitman/bitman.cpp.s
+	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/archbishop/Dev/infamousC-/src/bitman/bitman.cpp -o CMakeFiles/main.dir/src/bitman/bitman.cpp.s
 
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/main.cpp.o: /home/archbishop/Dev/cpp/src/main.cpp
+CMakeFiles/main.dir/src/main.cpp.o: /home/archbishop/Dev/infamousC-/src/main.cpp
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/archbishop/Dev/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /home/archbishop/Dev/cpp/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/archbishop/Dev/infamousC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /home/archbishop/Dev/infamousC-/src/main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/archbishop/Dev/cpp/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
+	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/archbishop/Dev/infamousC-/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
 
 CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/archbishop/Dev/cpp/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
+	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/archbishop/Dev/infamousC-/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -145,7 +145,7 @@ main: CMakeFiles/main.dir/src/main.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/compiler_depend.ts
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/archbishop/Dev/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/archbishop/Dev/infamousC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -157,6 +157,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/archbishop/Dev/cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/archbishop/Dev/cpp /home/archbishop/Dev/cpp /home/archbishop/Dev/cpp/build /home/archbishop/Dev/cpp/build /home/archbishop/Dev/cpp/build/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/archbishop/Dev/infamousC-/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/archbishop/Dev/infamousC- /home/archbishop/Dev/infamousC- /home/archbishop/Dev/infamousC-/build /home/archbishop/Dev/infamousC-/build /home/archbishop/Dev/infamousC-/build/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/main.dir/depend
 

@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/archbishop/Dev/cpp/build/cmake_install.cmake"
+		"/home/archbishop/Dev/infamousC-/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

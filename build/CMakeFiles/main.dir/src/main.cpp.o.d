@@ -1,4 +1,5 @@
-CMakeFiles/main.dir/src/main.cpp.o: /home/archbishop/Dev/cpp/src/main.cpp \
+CMakeFiles/main.dir/src/main.cpp.o: \
+ /home/archbishop/Dev/infamousC-/src/main.cpp \
  /nix/store/0vqrw0y515015i3065r9s00jcp1cd4hy-glibc-2.40-66-dev/include/stdc-predef.h \
  /nix/store/ffrg0560kj0066s4k9pznjand907nlnz-gcc-14.3.0/include/c++/14.3.0/chrono \
  /nix/store/ffrg0560kj0066s4k9pznjand907nlnz-gcc-14.3.0/include/c++/14.3.0/bits/requires_hosted.h \
@@ -223,8 +224,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /home/archbishop/Dev/cpp/src/main.cpp \
  /nix/store/0vqrw0y515015i3065r9s00jcp1cd4hy-glibc-2.40-66-dev/include/bits/posix2_lim.h \
  /nix/store/0vqrw0y515015i3065r9s00jcp1cd4hy-glibc-2.40-66-dev/include/bits/xopen_lim.h \
  /nix/store/0vqrw0y515015i3065r9s00jcp1cd4hy-glibc-2.40-66-dev/include/bits/uio_lim.h \
- /home/archbishop/Dev/cpp/src/basics/basics.h \
- /home/archbishop/Dev/cpp/src/bitman/bitman.h \
+ /home/archbishop/Dev/infamousC-/src/basics/basics.h \
+ /home/archbishop/Dev/infamousC-/src/bitman/bitman.h \
  /nix/store/ffrg0560kj0066s4k9pznjand907nlnz-gcc-14.3.0/include/c++/14.3.0/bitset \
  /nix/store/ffrg0560kj0066s4k9pznjand907nlnz-gcc-14.3.0/include/c++/14.3.0/set \
  /nix/store/ffrg0560kj0066s4k9pznjand907nlnz-gcc-14.3.0/include/c++/14.3.0/bits/stl_tree.h \
@@ -233,4 +234,4 @@ CMakeFiles/main.dir/src/main.cpp.o: /home/archbishop/Dev/cpp/src/main.cpp \
  /nix/store/ffrg0560kj0066s4k9pznjand907nlnz-gcc-14.3.0/include/c++/14.3.0/bits/stl_set.h \
  /nix/store/ffrg0560kj0066s4k9pznjand907nlnz-gcc-14.3.0/include/c++/14.3.0/bits/stl_multiset.h \
  /nix/store/ffrg0560kj0066s4k9pznjand907nlnz-gcc-14.3.0/include/c++/14.3.0/bits/erase_if.h \
- /home/archbishop/Dev/cpp/src/classes/classes.h
+ /home/archbishop/Dev/infamousC-/src/classes/classes.h

@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/basics/basics.cpp.o: \
- /home/archbishop/Dev/cpp/src/basics/basics.cpp \
+ /home/archbishop/Dev/infamousC-/src/basics/basics.cpp \
  /nix/store/0vqrw0y515015i3065r9s00jcp1cd4hy-glibc-2.40-66-dev/include/stdc-predef.h \
- /home/archbishop/Dev/cpp/src/basics/basics.h \
+ /home/archbishop/Dev/infamousC-/src/basics/basics.h \
  /nix/store/ffrg0560kj0066s4k9pznjand907nlnz-gcc-14.3.0/include/c++/14.3.0/cstring \
  /nix/store/ffrg0560kj0066s4k9pznjand907nlnz-gcc-14.3.0/include/c++/14.3.0/bits/version.h \
  /nix/store/ffrg0560kj0066s4k9pznjand907nlnz-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu/bits/c++config.h \
