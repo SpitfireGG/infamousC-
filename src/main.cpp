@@ -1,3 +1,4 @@
+#include <alloca.h>
 #include <chrono>
 #include <cstdint>
 #include <cstring>
@@ -20,6 +21,65 @@
 int main()
 
 {
+  // ascii and values
+  char f{'a'};
+  char l{'z'};
+  int c{};
+  while (static_cast<int>(f) != static_cast<int>(l)) {
+    c = static_cast<int>(f);
+    std::cout << f << " " << c << '\n';
+    f++;
+    c++;
+  }
+
+  /*
+  5 4 3 2 1
+  4 3 2 1
+  3 2 1
+  2 1
+  1
+  */
+  /*
+    int outer{5};
+
+    while (outer >= 1) {
+      std::cout << outer << " ";
+      int inner{outer - 1};
+      while (inner >= 1) {
+        std::cout << inner << " ";
+        inner--;
+      }
+      std::cout << '\n';
+      outer--;
+    }
+  */
+  std::cout << "###############################################################"
+
+               "############################"
+            << '\n';
+  /*
+          1
+        2 1
+      3 2 1
+    4 3 2 1
+  5 4 3 2 1
+  */
+
+  int n{5};
+  for (int i = 1; i <= n; ++i) {
+    for (int space = 1; space <= n - 1; ++space) {
+      std::cout << "";
+    }
+    for (int j = i; j >= 1; --j) {
+      std::cout << j << " ";
+    }
+    std::cout << '\n';
+  }
+
+  std::cout << "###############################################################"
+
+               "############################"
+            << '\n';
 
   // #########################################################################################################
   BitManipulation::bitmanp();
@@ -50,11 +110,18 @@ int main()
   std::cout << "###############################################################"
                "############################"
             << '\n';
+  std::cout << "bit checking\n";
   bitmmaskingQuest::BitChecking(5, 2);
   std::cout << "###############################################################"
                "############################"
             << '\n';
+  std::cout << "turn me on\n";
   bitmmaskingQuest::TurnmeON(5, 3);
+  std::cout << "###############################################################"
+               "############################"
+            << '\n';
+  std::cout << "turn me off\n";
+  bitmmaskingQuest::TurnmeOFF(5, 3);
   std::cout << "###############################################################"
                "############################"
             << '\n';

@@ -188,14 +188,27 @@ bool TurnmeON(uint8_t num, int pos) {
     std::cout << "already turned on\n";
     return true;
   } else {
-    num |= ~flags; // 0000'0100 ~1111'1011 | 0000'0101 -> 3rd bit is now turned
-                   // along with more bits turned on tooo ,   am i doing it
-                   // correctly ???
+    num |= flags;
     std::cout << std::boolalpha << "pos: " << pos
               << "bit: " << std::bitset<8>(num) << '\n';
-    return true;
+    return false;
   }
 
+  return false;
+}
+
+bool TurnmeOFF(uint8_t num, int pos) {
+  std::uint8_t flags = static_cast<uint8_t>(1u << pos);
+
+  if ((num & flags) == 0) {
+    std::cout << "bit is turned off\n\n";
+    return true;
+  } else {
+    num &= ~flags;
+    std::cout << std::boolalpha << "pos: " << pos
+              << "num: " << std::bitset<8>(num) << '\n';
+    return true;
+  }
   return false;
 }
 
