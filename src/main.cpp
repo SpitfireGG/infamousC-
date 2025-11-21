@@ -12,6 +12,7 @@
 #include <string>
 
 #include "basics/basics.h"
+#include "basics/random.h"
 #include "bitman/bitman.h"
 #include "classes/classes.h"
 
@@ -21,65 +22,45 @@
 int main()
 
 {
-  // ascii and values
-  char f{'a'};
-  char l{'z'};
-  int c{};
-  while (static_cast<int>(f) != static_cast<int>(l)) {
-    c = static_cast<int>(f);
-    std::cout << f << " " << c << '\n';
-    f++;
-    c++;
-  }
 
-  /*
-  5 4 3 2 1
-  4 3 2 1
-  3 2 1
-  2 1
-  1
-  */
-  /*
-    int outer{5};
+  unsigned int seed;
+  std::cout << "enter a value for seed: ";
+  std::cin >> seed;
+  NumberGen::SeedRPNGs(seed);
 
-    while (outer >= 1) {
-      std::cout << outer << " ";
-      int inner{outer - 1};
-      while (inner >= 1) {
-        std::cout << inner << " ";
-        inner--;
-      }
+  for (int count{1}; count <= 100; ++count) {
+    std::cout << NumberGen::RPNGs() << '\t';
+    if (count % 10 == 0) {
       std::cout << '\n';
-      outer--;
     }
-  */
-  std::cout << "###############################################################"
-
-               "############################"
-            << '\n';
-  /*
-          1
-        2 1
-      3 2 1
-    4 3 2 1
-  5 4 3 2 1
-  */
-
-  int n{5};
-  for (int i = 1; i <= n; ++i) {
-    for (int space = 1; space <= n - 1; ++space) {
-      std::cout << "";
-    }
-    for (int j = i; j >= 1; --j) {
-      std::cout << j << " ";
-    }
-    std::cout << '\n';
   }
 
   std::cout << "###############################################################"
 
                "############################"
             << '\n';
+  NumberGen::MersenneTwister();
+
+  std::cout << "###############################################################"
+
+               "############################"
+            << '\n';
+  for (int i = 0; i <= 2; i++) {
+    NumberGen::DiceRoll();
+  }
+
+  std::cout << "###############################################################"
+
+               "############################"
+            << '\n';
+  NumberGen::MoreRandomizedMersenneTwister();
+
+  std::cout << "###############################################################"
+
+               "############################"
+            << '\n';
+
+  Randomizer::CallRandom();
 
   // #########################################################################################################
   BitManipulation::bitmanp();
